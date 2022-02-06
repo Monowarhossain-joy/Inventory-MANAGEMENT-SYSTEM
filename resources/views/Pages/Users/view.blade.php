@@ -1,0 +1,29 @@
+@extends('Layouts.app')
+@section('content')
+<table class='table table-bordered'>
+    <tr>
+        <th>ID</th>
+        <th>{{$user->u_id}}</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>{{$user->name}}</th>
+    </tr>
+    <tr>
+        <th>Date of Birth</th>
+        <th>{{$user->dob}}</th>
+    </tr>
+    <tr>
+        <th>Address</th>
+        <th>{{$user->address}}</th>
+    </tr>
+    <tr>
+        <th>Phone</th>
+        <th>{{$user->phone}}</th>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <th>{{$user->email}}</th>
+    </tr>
+</table>
+@endsection
